@@ -9,7 +9,8 @@ var target = $(href == "#" || href == "" ? 'html' : href);
       // 移動先を数値で取得  
       var position = target.offset().top;
       // スムーススクロール
-      $('body,html').animate({scrollTop:position}, speed);
+      $('html, body').animate({scrollTop:position}, speed,'swing');
+      console.log("aaaaa");
       return false;
     });
  });
