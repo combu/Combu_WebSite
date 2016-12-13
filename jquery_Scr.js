@@ -5,12 +5,11 @@ $(function(){
       var speed = 400; // ミリ秒
 　　　 // 移動先を取得
       var href= $(this).attr("href");
-var target = $(href == "#" || href == "" ? 'html' : href);
+      var target = $(href == "#" || href == "" ? 'html' : href);
       // 移動先を数値で取得  
       var position = target.offset().top;
       // スムーススクロール
       $('html, body').animate({scrollTop:position}, speed,'swing');
-      console.log("aaaaa");
       return false;
     });
  });

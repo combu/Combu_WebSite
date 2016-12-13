@@ -74,6 +74,7 @@
 	}
 	#Copyright{
 		font-size: 20px;
+		margin-left:25px;
 	}
 }
 @media only screen and (max-width: 479px){
@@ -128,6 +129,7 @@
 		font-weight: 500;
 	}
 	#Copyright{
+		margin-left:20px;
 		font-size: 15px;
 	}
 
